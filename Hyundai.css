@@ -1,0 +1,731 @@
+
+/* Navigasi */
+body{
+    font-family: montserrat;
+}
+
+.Container {
+    width: 90%;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 480px;
+    /* box-shadow: 5px 5px 5px 5px gray; */
+}
+
+/* Menu */
+.Container .Menu{
+    display: flex;
+    gap: 20px;
+    font size: 16px;
+    align-items: center;
+    font-weight: 400;
+}
+
+.Menu .Mobil{
+    text-decoration: none;
+}
+
+.Menu .Personalisasi{
+    text-decoration: none;
+}
+
+.Menu .Purna-Jual{
+    text-decoration: none;
+}
+    
+.Menu .Promo{
+    text-decoration: none;
+}
+
+.Menu .Contact{
+    background-color: #002C5F;
+    color: white;
+    padding: 8px 24px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            px 24px; 
+    border-style: solid;
+    border-width: 2px;
+    font-family: montserrat;
+    font-size: 16px;
+    border-color: #002C5F;
+    border-radius: 4px;
+}
+
+/* Hover */
+.Contact:hover {
+    background-color: white;
+    color: #002C5F;
+}
+
+/* Akhir Navigasi */
+
+/* Section Hero */
+
+.Container-Hero{
+    background-image: url("Image/Banner-Hero.svg");
+    width: 100%;
+    height: 690px;
+    margin: auto;
+    font-family: montserrat;
+}
+
+.Img-Hero button{ 
+    background-color: #002C5F;
+    color: white;
+    font-family: montserrat;
+    font-size: 16px;
+    padding: 12px 24px;
+    /* border-radius: 4px; */
+    border: none;
+    position: absolute;
+    left: 130px;
+    top: 320px;
+
+}   
+
+/* Akhir Section Hero */
+
+/* Section Introduction */
+ 
+.Container-Introduction{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.Container-Introduction .Content{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Content .Headline{
+    font-family: montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    
+}
+
+.Headline .Mobil{
+    color: #002C5F;
+}
+
+.Container-Introduction .Content .Paragraph-Satu {
+    font-family: montserrat;
+    font-Size: 16px;
+}
+
+.Image-Introduction img{
+    width: 550px;
+    display: flex;
+    gap: 200px;
+    border-radius: 20px;
+
+}
+
+.Content .Btn-Introduction button {
+    background-color: #002C5F;
+    color: white;
+    font-family: montserrat;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: none;
+    
+}
+
+/* Akhir Section Introduction */
+
+/* Section Produk Hyundai */
+
+.Container-Produk {
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.Container-Produk .Gap-Column{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Container-Produk  .Judul{
+    text-Align:center;
+    font-family:montserrat;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Judul .Hyundai{
+    color:#002C5F;
+}
+
+/* Column */
+
+.Container-Produk .Column{
+    display: flex;
+    /* gap: 20px; */
+    font-family: montserrat;
+    font-size: 16px;
+    
+}
+
+.Column .Kendaraan{
+    background-color: #002C5F;
+    color: white;
+    padding: 12px 88px;
+    
+}
+
+.Column .Suv{
+    background-color: Black;
+    color: white;
+    padding: 12px 130px;
+}
+
+.Column .Ev{
+    background-color: Black;
+    color: white;
+    padding: 12px 130px;
+}
+
+.Column .Mpv{
+    background-color: Black;
+    color: white;
+    padding: 12px 130px;
+}
+
+/* Image Car */
+
+.Image-car {
+    display: flex;
+    align-items: center;
+    
+}
+
+.Image-car .Creta {
+    order: 2;
+}
+
+.Image-car .Santa {
+    order: 1;
+}
+
+.Image-car .Palisade {
+    order: 3;
+}
+
+/* Line Car */
+
+.Line-Car{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Line-Car .Next{
+    display: inline-flex;
+    align-items:center;
+    text-align: center;
+    gap: 10px;
+    
+}
+
+.Line-Car .Choice-Suv{
+    background-color: gray;
+    color: white;
+    padding: 8px 15px;
+}
+
+.Next .Line {
+    display: flex;
+    flex-direction: column;
+}
+
+.Content-Produk {
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Merek Produk */
+
+.Merek{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    Order: 1;
+}
+
+.Merek .SUV-Creta {
+    font-size: 24px;
+    font-weight: 600;
+    color: #002C5F;
+
+}
+
+.Merek .Harga{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Merek .Idr {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Merek .Makassar{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Merek .Harga-OTR{
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+}
+
+.Merek .Varian-Long{
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+}
+
+.Merek .Varian-Standar{
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+}
+
+/* Specification */
+.Specification{
+    order: 2;
+}
+
+.Specification .High{
+    font-size: 16px;
+    color: #002C5F;
+    
+}
+
+.List-Specification ul li{
+    padding: 5px;
+
+}
+
+/* Button */
+
+.Content-Produk .Button{
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    order: 5;
+}
+.Content-Produk .Pesan button{
+    background-color: #002C5F;
+    color: white;
+    padding: 10px 41px;
+    font-family: 18px;
+    border: none;
+}
+
+.Content-Produk .Lihat button{
+    background-color: transparent;
+    color: #002C5F;
+    padding: 10px 31px;
+    font-family: 18px;
+    border: 1px solid;
+}
+
+/* Line Vertical */
+
+.Content-Produk .Line-Vertical1{
+    border: 1px solid #ddd;
+    height: 220px;
+    order: 2;
+}
+
+.Content-Produk .Line-Vertical2{
+    border: 1px solid #ddd;
+    height: 220px;
+    order:1;
+}
+
+/* Akhri Produk */
+
+/* Section Pilih Kami */
+.Container-Why-Choose-Us{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* gap:100px; */
+    justify-content:space-between;
+    
+}
+
+.Headline-Choose-Us{
+    font-size: 32px;
+    display:flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.Headline-Choose-Us span{
+    color: #002C5F;
+    font-weight: 600;
+    
+}
+
+.Pilih-Kami{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Container-Why-Choose-Us .Content-Choose-Us{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+/* Content Tabel-1 */
+
+.Content-Tabel1 {
+    display: flex;
+    gap: 60px;
+}
+
+/* Proses */
+
+.Content-Tabel1 .Proses{
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Proses .Headline-Proses{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Terpercaya */
+
+.Content-Tabel1 .Terpercaya{
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Terpercaya .Headline-Terpercaya{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Content Tabel 2 */
+
+.Content-Tabel2 {
+    display: flex;
+    gap: 50px;
+}
+/* Penawaran */
+
+.Content-Tabel2 .Penawaran{
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Penawaran .Headline-Penawaran{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Penawaran */
+
+.Content-Tabel2 .Pembayaran{
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Pembayaran .Headline-Pembayaran{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner img{
+    display: flex;
+    
+    
+}
+
+/* Akhir Kenap Pilih Kami */
+
+/* Section Promo */
+
+.Container-Promo{
+    width:90%;
+    height: 600px;
+    margin:auto;
+    display:flex;
+    gap: 60px;
+    padding-top:120px;
+    font-family:montserrat;
+}
+
+.Headline-Promo{
+    font-size: 28px;
+    font-weight: 600;
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Headline-Promo .Promo span{
+    font-size: 28px;
+    font-weight: 600;
+    color: red;  
+}
+
+.Headline-Promo .Btn-Promo button{
+    font-size: 16px;
+    background-color: #002C5F;
+    font-weight: 400;
+    color: white;  
+    font-family: montserrat;
+    padding: 10px 24px;
+    border: none;
+}
+
+/* Section Card Promo-1 */
+
+
+.Box-Card-Produk{
+    width:60%;
+    height: 400px;
+    display:flex;
+    gap:20px;
+}
+
+.Box-Card1 .Card-Promo1 {
+    width: 300px;
+    height: 380px; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8.860335350036621px 0px rgba(0, 0, 0, 0.25);
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    padding: 20px 20px;
+}
+
+.Card-Promo1 .Headline-Card{
+    font-size:24px;
+    font-weight:600;
+}
+
+.Card-Promo1 .Paragraph-Card{
+    line-height: 24px;
+}
+
+.Card-Promo1 .Paragraph-Red{
+    line-height: 24px;
+    color:red;
+}
+
+.Card-Promo1 .Btn-Card button{
+    background-color: #002C5F;
+    color: #fff;
+    padding: 10px 108px;
+    font-size: 16px;
+    border:none;
+}
+
+/* Card Produk 2 */
+
+.Box-Card2 .Card-Promo2 {
+    width: 300px;
+    height: 380px; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8.860335350036621px 0px rgba(0, 0, 0, 0.25);
+    display:flex;
+    flex-direction:column;
+    gap: 16px;
+    padding: 20px 20px;
+}
+
+.Card-Promo2 .Headline-Card2{
+    font-size:24px;
+    font-weight:600;
+}
+
+.Card-Promo2 .Paragraph-Card2{
+    line-height: 24px;
+}
+
+.Card-Promo2 .Paragraph-Red2{
+    line-height: 24px;
+    color:red;
+}
+
+.Card-Promo2 .Btn-Card2 button{
+    background-color: #002C5F;
+    color: #fff;
+    padding: 10px 108px;
+    font-size: 16px;
+    border:none;
+}
+
+.Card-Promo2 img{
+    border-radius: 8px;
+}
+
+/* Card Produk 3 */
+
+.Box-Card3 .Card-Promo3 {
+    width: 300px;
+    height: 380px; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8.860335350036621px 0px rgba(0, 0, 0, 0.25);
+    display:flex;
+    flex-direction:column;
+    gap: 29px;
+    padding: 20px 20px;
+}
+
+.Card-Promo3 .Headline-Card3{
+    font-size:24px;
+    font-weight:600;
+}
+
+.Card-Promo3 .Paragraph-Card3{
+    line-height: 24px;
+}
+
+.Card-Promo3 .Btn-Card3 button{
+    background-color: #002C5F;
+    color: #fff;
+    padding: 10px 108px;
+    font-size: 16px;
+    border:none;
+}
+
+/* Line Next */
+.Line-Next {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Line-Next .Line .Line-Navy{
+    width: 100px;
+    height: 4px;
+    background-color: #002C5F;
+}
+
+.Line-Next .Line{
+    width: 100%;
+    height: 4px;
+    background-color: #ddd;
+}
+
+.Container-Promo .Line-Next .Arrow{
+    display:flex;
+    gap: 10px;
+    
+}
+
+.Box-Card {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 75%;
+}
+
+/* Akhir Section Promo */
+
+/* Section Blog */
+
+.Container-Blog{
+    display:flex;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    font-family: montserrat;
+    background-color:white;
+}
+
+.Container-Detail{
+    background-color:#002C5F; 
+    display: flex; 
+    color:white; 
+    gap: 30px;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.Container-Blog .Blog {
+    width: 45%;
+    order:1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.Container-Blog .Blog .Headline {
+    Font-size: 24px;
+    font-weight: 600;
+}
+
+.Container-Blog .Blog .Paragraph {
+    Font-size: 18px;
+    font-weight: 400;
+}
+
+.Blog .Btn-Blog button{
+    display:flex;
+    gap: 8px;
+    padding: 10px 24px;
+    background-color: white;
+    color: #002C5F;
+    border: none;
+    font-family: montserrat;
+    font-weight: 500;
+}
+
+/* Section Test */
+
+.Container-Test{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.Container-Test .Imgbnr{
+    background-image: url("Banne-Us.svg");
+}
+
+.Container-Test .form form{
+    /* display:flex;
+    flex-direction:column;
+    /* gap: 100px; */
+    /* align-items: center; */
+    /* justify-content: center;
+    position:absolute;
+    left: 50%; */ 
+    
+}
